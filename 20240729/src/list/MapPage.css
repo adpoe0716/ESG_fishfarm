@@ -1,0 +1,26 @@
+/* MapPage.css */
+.map-container {
+    position: relative;
+    top: 50px; /* 根據導航列的高度調整 */
+    height: calc(100vh - 50px); /* 減去導航列的高度 */
+    width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* 根據需要調整 */
+    z-index: 1000; /* 保證導航列在最上層 */
+}
+
+.navbar-title {
+    display: inline-block;
+    margin: 10px;
+}
+
+.navbar-link {
+    display: inline-block;
+    margin: 10px;
+}
